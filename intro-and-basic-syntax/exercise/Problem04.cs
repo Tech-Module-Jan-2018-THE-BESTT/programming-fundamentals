@@ -13,12 +13,12 @@ namespace Area
             var sugar = int.Parse(Console.ReadLine());
 
             //we calculated the energy and sugar content for the given volume 
-            var enrgyVolume = volume * energy / 100.0;
-            var sugarVolume = volume * sugar / 100.0;
+            var enrgyVol = volume * energy / 100.0;
+            var sugarVol = volume * sugar / 100.0;
 
             //we printed  Volume – integer, suffixed by “ml”, Name and next line: Energy content – integer, suffixed by “kcal” , Sugar content – integer, suffixed by “g” 
             Console.WriteLine($"{volume}ml {name}:");
-            Console.WriteLine($"{enrgyVolume}kcal, {sugarVolume}g sugars");
+            Console.WriteLine($"{enrgyVol}kcal, {sugarVol}g sugars");
         }
     }
 }
