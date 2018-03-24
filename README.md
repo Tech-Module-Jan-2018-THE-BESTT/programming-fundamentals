@@ -67,17 +67,11 @@ Energy content – integer, suffixed by “kcal” (e.g. “500kcal”)
 Sugar content – integer, suffixed by “g” (e.g. “30g”) 
 
 Examples:
-| Input                | Output                                |
-|----------------------|---------------------------------------|
-| Nuka-Cola 220 300 70 | 220ml Nuka-Cola: 660kcal, 154g sugars |
-
 
 | Input                | Output                                |
 |----------------------|---------------------------------------|
 | Ice-cold N-Cola 
 |250 350 65            | 250ml ICE NC: 875kcal, 162.5g sugars  |
-
-
 
 
 
