@@ -1,3 +1,4 @@
+//CONFIRMED from Nedelcho.Karageorgiev
 using System;
 
 namespace Problem_2._Rectangle_Area
