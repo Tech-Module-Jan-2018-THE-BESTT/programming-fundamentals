@@ -1,4 +1,4 @@
-
+﻿
  # 1. Exercises: C# Intro and Basic Syntax 
 ###### [SoftUni Link to the solutions](https://judge.softuni.bg/Contests/577)
 
@@ -44,15 +44,14 @@ Write a program, which converts miles to kilometers. Format the output to the 2n
 Note: 1 mile == 1.60934 kilometers
 Examples:
 
-Input      60
-Output     96.56
 
-Input      1 
-Output     1.61
+| Input   | Output |  | Input   | Output |  | Input   | Output   |
+|---------|--------|  |---------|--------|  |---------|----------|
+| 60      | 96.56  |  | 1       | 1.61   |  | 52.1113 | 83.86    |
 
-Input      52.1113
-Output     83.86   
-
+ 
+ 
+*******************************************************************************************************************
 
 	Problem 4. Beverage Labels
 
@@ -76,7 +75,7 @@ Examples:
 |250 350 65            | 250ml ICE NC: 875kcal, 162.5g sugars  |
 
 
-
+*******************************************************************************************************************
 
     Problem 5. * Character Stats
 Write a program, which displays information about a video game character. You will receive their name, current health, maximum health, current energy and maximum energy on separate lines. The current values will always be valid (equal or lower than their respective max values). Print them in the format as per the examples.
