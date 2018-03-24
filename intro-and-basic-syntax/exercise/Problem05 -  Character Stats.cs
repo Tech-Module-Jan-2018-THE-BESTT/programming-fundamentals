@@ -1,3 +1,4 @@
+// CONFIRMED from Nedelcho.Karageorgiev
 using System;
 
 namespace Character_Stats

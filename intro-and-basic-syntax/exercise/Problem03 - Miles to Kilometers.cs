@@ -1,5 +1,4 @@
 ﻿uusing System;
-
 namespace Area
 {
     class Problem_3
