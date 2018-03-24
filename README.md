@@ -68,6 +68,8 @@ Sugar content – integer, suffixed by “g” (e.g. “30g”) 
 
 Examples:
 
+
+
 | Input                | Output                                |
 |----------------------|---------------------------------------|
 | Ice-cold N-Cola 
