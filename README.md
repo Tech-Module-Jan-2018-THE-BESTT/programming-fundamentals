@@ -62,23 +62,40 @@
 
  ##### Write a program, which reads a food product name, volume, energy content per 100ml and sugar content per 100ml. Calculate the energy and sugar content for the given volume and print them on the console in the following format:
 
-Name – as per the input
+ * Name – as per the input
 
-Volume – integer, suffixed by “ml” (e.g. “220ml”)
+ * Volume – integer, suffixed by “ml” (e.g. “220ml”)
 
-Energy content – integer, suffixed by “kcal” (e.g. “500kcal”)
+ * Energy content – integer, suffixed by “kcal” (e.g. “500kcal”)
 
-Sugar content – integer, suffixed by “g” (e.g. “30g”) 
+ * Sugar content – integer, suffixed by “g” (e.g. “30g”) 
 
-Examples:
+ ##### Examples:
+
+| Input                | Output                                |
+|----------------------|---------------------------------------|
+|Nuka-Cola             | 220ml Nuka-Cola:                      |
+|220                   | 660kcal, 154g sugars                  |
+|300                   |                                       |
+|70                    |                                       |
 
 
 
 | Input                | Output                                |
 |----------------------|---------------------------------------|
-| Ice-cold N-Cola 
-|250 350 65            | 250ml ICE NC: 875kcal, 162.5g sugars  |
+|Ice-cold Nuka-Cola    | 250ml Ice Cold Nuka-Cola:             |
+|250                   | 875kcal, 162.5g sugars                |
+|350                   |                                       |
+|65                    |                                       |
 
+
+
+| Input                | Output                                |
+|----------------------|---------------------------------------|
+|Nuka-Cola Quantum     | 350ml Nuka-Cola Quantum:              |
+|350                   | 2100kcal, 490g sugars                 |
+|600                   |                                       |
+|140                   |                                       |
 
 *******************************************************************************************************************
 
@@ -86,54 +103,44 @@ Examples:
 
  ##### Write a program, which displays information about a video game character. You will receive their name, current health, maximum health, current energy and maximum energy on separate lines. The current values will always be valid (equal or lower than their respective max values). Print them in the format as per the examples.
 
-  ##### Examples:
+ ##### Examples:
+
+| Input                | Output                                |
+|----------------------|---------------------------------------|
+|Mayro                 | Name: Mayro                           |
+|5                     | Health: ||||||.....|                  |
+|10                    | Energy: ||||||||||.|                  |
+|9                     |                                       |
+|10                    |                                       |
 
 
-Input: 
-Mayro
-5
-10
-9
-10
-Output:
-Name: Mayro
-Health: ||||||.....|
-Energy: ||||||||||.|
-
-Input:
-Bauser
-10
-10
-10
-10
-Output:
-Name: Bauser
-Health: ||||||||||||
-Energy: ||||||||||||
+| Input                | Output                                |
+|----------------------|---------------------------------------|
+|Bauser                | Name: Bause                           |
+|10                    | Health: ||||||||||||                  |
+|10                    | Energy: ||||||||||||                  |
+|10                    |                                       |
+|10                    |                                       |
 
 
-Input:
-Loogi
-8
-20
-2
-14
-Output:
-Name: Loogi
-Health: |||||||||............|
-Energy: |||............|
+| Input                | Output                                |
+|----------------------|---------------------------------------|
+|Loogi                 | Name: Loogi                           |
+|8                     | Health: |||||||||............|        |
+|20                    | Energy: |||............|              |
+|2                     |                                       |
+|14                    |                                       |
 
-Input:
-Toad
-0
-5
-0
-10
-Output:
-Name: Toad
-Health: |.....|
-Energy: |..........|
 
-Hints
-    • You can print a character multiple times, using new string(character, count).
+| Input                | Output                                |
+|----------------------|---------------------------------------|
+|Toad                  | Name: Toad                            |
+|0                     | Health: |.....|                       |
+|5                     | Energy: |..........|                  |
+|0                     |                                       |
+|10                    |                                       |
+
+
+ #### Hints
+    * You can print a character multiple times, using new string(character, count).
 
