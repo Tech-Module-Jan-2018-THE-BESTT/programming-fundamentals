@@ -72,6 +72,8 @@ Examples:
 | Nuka-Cola 220 300 70 | 220ml Nuka-Cola: 660kcal, 154g sugars |
 
 
+
+
 | Input                | Output                                |
 |----------------------|---------------------------------------|
 | Ice-cold N-Cola 
