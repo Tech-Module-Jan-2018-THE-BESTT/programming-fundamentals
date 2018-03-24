@@ -26,7 +26,20 @@
 | 123            |                     |
 | 22             |                     |
 *******************************************************************************************************************
-    Problem 2. Miles to Kilometers
+
+
+
+Problem 2. Rectangle Area
+
+Write a program, which calculates a rectangle’s area, based on its width and height. The width and height come as floating point numbers on the console, formatted to the 2nd character after the decimal point.
+
+| Input   | Output |
+|---------|--------|
+| 2 7     | 14.00  |
+| 7 8     | 56.00  |
+| 12.33 5 | 61.65  |
+
+    Problem 3. Miles to Kilometers
 Write a program, which converts miles to kilometers. Format the output to the 2nd decimal place.
 Note: 1 mile == 1.60934 kilometers
 Examples:
@@ -39,15 +52,6 @@ Output     1.61
 
 Input      52.1113
 Output     83.86   
-
-### 	Problem 3. Miles to Kilometers
-Write a program, which converts miles to kilometers. Format the output to the 2nd decimal place.
-Note: 1 mile == 1.60934 kilometers
-Examples:
-
-Input	Output		Input	Output		Input		Output
-60		96.56	 	1		1.61	 	52.1113		83.86
-
 
 
 	Problem 4. Beverage Labels
@@ -62,43 +66,19 @@ Energy content – integer, suffixed by “kcal” (e.g. “500kcal”)
 
 Sugar content – integer, suffixed by “g” (e.g. “30g”) 
 
-Examples
+Examples:
+| Input                | Output                                |
+|----------------------|---------------------------------------|
+| Nuka-Cola 220 300 70 | 220ml Nuka-Cola: 660kcal, 154g sugars |
 
-InputOutput
 
-Nuka-Cola
+| Input                | Output                                |
+|----------------------|---------------------------------------|
+| Ice-cold N-Cola 
+|250 350 65            | 250ml ICE NC: 875kcal, 162.5g sugars  |
 
-220
 
-300
 
-70220ml Nuka-Cola:
-
-660kcal, 154g sugars
-
-InputOutput
-
-Ice Cold Nuka-Cola
-
-250
-
-350
-
-65250ml Ice Cold Nuka-Cola:
-
-875kcal, 162.5g sugars
-
-InputOutput
-
-Nuka-Cola Quantum
-
-350
-
-600
-
-140350ml Nuka-Cola Quantum:
-
-2100kcal, 490g sugars
 
 
 
