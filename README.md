@@ -78,19 +78,11 @@
 |220                   | 660kcal, 154g sugars                  |
 |300                   |                                       |
 |70                    |                                       |
-
-
-
-| Input                | Output                                |
 |----------------------|---------------------------------------|
 |Ice-cold Nuka-Cola    | 250ml Ice Cold Nuka-Cola:             |
 |250                   | 875kcal, 162.5g sugars                |
 |350                   |                                       |
 |65                    |                                       |
-
-
-
-| Input                | Output                                |
 |----------------------|---------------------------------------|
 |Nuka-Cola Quantum     | 350ml Nuka-Cola Quantum:              |
 |350                   | 2100kcal, 490g sugars                 |
@@ -108,35 +100,26 @@
 | Input                | Output                                |
 |----------------------|---------------------------------------|
 |Mayro                 | Name: Mayro                           |
-|5                     | Health: IIIIII.....I                  |
+|5                     | Health: IIIIII.....I|||||||||||||||||||
 |10                    | Energy: IIIIIIIIII.I                  |
 |9                     |                                       |
 |10                    |                                       |
-
-
-| Input                | Output                                |
 |----------------------|---------------------------------------|
 |Bauser                | Name: Bause                           |
-|10                    | Health: IIIIIIIIIIII                  |
+|10                    | Health: IIIIIIIIIIII|||||||||||||||||||
 |10                    | Energy: IIIIIIIIIIII                  |
 |10                    |                                       |
 |10                    |                                       |
-
-
-| Input                | Output                                |
 |----------------------|---------------------------------------|
 |Loogi                 | Name: Loogi                           |
 |8                     | Health: IIIIIIIII............I        |
 |20                    | Energy: III............I              |
 |2                     |                                       |
 |14                    |                                       |
-
-
-| Input                | Output                                |
 |----------------------|---------------------------------------|
 |Toad                  | Name: Toad                            |
 |0                     | Health: I.....I                       |
-|5                     | Energy: I..........I                  |
+|5                     | Energy: I..........I|||||||||||||||||||
 |0                     |                                       |
 |10                    |                                       |
 
